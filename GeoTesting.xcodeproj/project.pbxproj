@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93C8029219C88429004A40DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8029119C88429004A40DE /* AppDelegate.swift */; };
+		93C8029419C88429004A40DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8029319C88429004A40DE /* ViewController.swift */; };
+		93C8029719C88429004A40DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C8029519C88429004A40DE /* Main.storyboard */; };
+		93C8029919C88429004A40DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C8029819C88429004A40DE /* Images.xcassets */; };
+		93C8029C19C88429004A40DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93C8029A19C88429004A40DE /* LaunchScreen.xib */; };
+		93C802A819C88429004A40DE /* GeoTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C802A719C88429004A40DE /* GeoTestingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93C802A219C88429004A40DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C8028419C88429004A40DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C8028B19C88429004A40DE;
+			remoteInfo = GeoTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93C8028C19C88429004A40DE /* GeoTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C8029019C88429004A40DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C8029119C88429004A40DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C8029319C88429004A40DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93C8029619C88429004A40DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C8029819C88429004A40DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93C8029B19C88429004A40DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		93C802A119C88429004A40DE /* GeoTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C802A619C88429004A40DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C802A719C88429004A40DE /* GeoTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTestingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C8028919C88429004A40DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C8029E19C88429004A40DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C8028319C88429004A40DE = {
+			isa = PBXGroup;
+			children = (
+				93C8028E19C88429004A40DE /* GeoTesting */,
+				93C802A419C88429004A40DE /* GeoTestingTests */,
+				93C8028D19C88429004A40DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C8028D19C88429004A40DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C8028C19C88429004A40DE /* GeoTesting.app */,
+				93C802A119C88429004A40DE /* GeoTestingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C8028E19C88429004A40DE /* GeoTesting */ = {
+			isa = PBXGroup;
+			children = (
+				93C8029119C88429004A40DE /* AppDelegate.swift */,
+				93C8029319C88429004A40DE /* ViewController.swift */,
+				93C8029519C88429004A40DE /* Main.storyboard */,
+				93C8029819C88429004A40DE /* Images.xcassets */,
+				93C8029A19C88429004A40DE /* LaunchScreen.xib */,
+				93C8028F19C88429004A40DE /* Supporting Files */,
+			);
+			path = GeoTesting;
+			sourceTree = "<group>";
+		};
+		93C8028F19C88429004A40DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C8029019C88429004A40DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93C802A419C88429004A40DE /* GeoTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				93C802A719C88429004A40DE /* GeoTestingTests.swift */,
+				93C802A519C88429004A40DE /* Supporting Files */,
+			);
+			path = GeoTestingTests;
+			sourceTree = "<group>";
+		};
+		93C802A519C88429004A40DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C802A619C88429004A40DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C8028B19C88429004A40DE /* GeoTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C802AB19C88429004A40DE /* Build configuration list for PBXNativeTarget "GeoTesting" */;
+			buildPhases = (
+				93C8028819C88429004A40DE /* Sources */,
+				93C8028919C88429004A40DE /* Frameworks */,
+				93C8028A19C88429004A40DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTesting;
+			productName = GeoTesting;
+			productReference = 93C8028C19C88429004A40DE /* GeoTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93C802A019C88429004A40DE /* GeoTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C802AE19C88429004A40DE /* Build configuration list for PBXNativeTarget "GeoTestingTests" */;
+			buildPhases = (
+				93C8029D19C88429004A40DE /* Sources */,
+				93C8029E19C88429004A40DE /* Frameworks */,
+				93C8029F19C88429004A40DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C802A319C88429004A40DE /* PBXTargetDependency */,
+			);
+			name = GeoTestingTests;
+			productName = GeoTestingTests;
+			productReference = 93C802A119C88429004A40DE /* GeoTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C8028419C88429004A40DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mobile Makers";
+				TargetAttributes = {
+					93C8028B19C88429004A40DE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					93C802A019C88429004A40DE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 93C8028B19C88429004A40DE;
+					};
+				};
+			};
+			buildConfigurationList = 93C8028719C88429004A40DE /* Build configuration list for PBXProject "GeoTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C8028319C88429004A40DE;
+			productRefGroup = 93C8028D19C88429004A40DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C8028B19C88429004A40DE /* GeoTesting */,
+				93C802A019C88429004A40DE /* GeoTestingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C8028A19C88429004A40DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C8029719C88429004A40DE /* Main.storyboard in Resources */,
+				93C8029C19C88429004A40DE /* LaunchScreen.xib in Resources */,
+				93C8029919C88429004A40DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C8029F19C88429004A40DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C8028819C88429004A40DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C8029419C88429004A40DE /* ViewController.swift in Sources */,
+				93C8029219C88429004A40DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C8029D19C88429004A40DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C802A819C88429004A40DE /* GeoTestingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93C802A319C88429004A40DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C8028B19C88429004A40DE /* GeoTesting */;
+			targetProxy = 93C802A219C88429004A40DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93C8029519C88429004A40DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C8029619C88429004A40DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93C8029A19C88429004A40DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C8029B19C88429004A40DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C802A919C88429004A40DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93C802AA19C88429004A40DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C802AC19C88429004A40DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93C802AD19C88429004A40DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93C802AF19C88429004A40DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTesting.app/GeoTesting";
+			};
+			name = Debug;
+		};
+		93C802B019C88429004A40DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTesting.app/GeoTesting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C8028719C88429004A40DE /* Build configuration list for PBXProject "GeoTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C802A919C88429004A40DE /* Debug */,
+				93C802AA19C88429004A40DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C802AB19C88429004A40DE /* Build configuration list for PBXNativeTarget "GeoTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C802AC19C88429004A40DE /* Debug */,
+				93C802AD19C88429004A40DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93C802AE19C88429004A40DE /* Build configuration list for PBXNativeTarget "GeoTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C802AF19C88429004A40DE /* Debug */,
+				93C802B019C88429004A40DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93C8028419C88429004A40DE /* Project object */;
+}
